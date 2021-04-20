@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "960171166348",
+    "project_id": "binge-me",
+    "storage_bucket": "binge-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960171166348:android:f61ee801694c8dfaef89a9",
+        "android_client_info": {
+          "package_name": "com.binge.me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960171166348-1jb0r1akghiokps00g8lsfk6222qego9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsn8r34oG7H5y34d5-wVIqNJtBny5vO7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960171166348-1jb0r1akghiokps00g8lsfk6222qego9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
