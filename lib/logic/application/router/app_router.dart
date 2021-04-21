@@ -1,6 +1,6 @@
-import 'package:binge_me/presentation/splash/bloc/authentication_bloc.dart';
-import 'package:binge_me/presentation/splash/splash.dart';
-import 'package:binge_me/presentation/unknown.dart';
+import 'package:binge_me/feature/splash/bloc/auth_cubit.dart';
+import 'package:binge_me/feature/splash/splash.dart';
+import 'package:binge_me/feature/unknown.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

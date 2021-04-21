@@ -1,4 +1,5 @@
 import 'package:binge_me/constants/color_constants.dart';
+import 'package:binge_me/constants/strings.dart';
 import 'package:binge_me/logic/application/ApplicationBloc.dart';
 import 'package:binge_me/logic/application/router/app_router.dart';
 import 'package:binge_me/logic/common/internet_conn.dart';
@@ -25,6 +26,11 @@ class Application extends StatelessWidget {
         child: MaterialApp(
           title: "",
           initialRoute: "/",
+          home: Container(
+              color: Colors.black,
+              child: Align(
+                  alignment: Alignment.center,
+                  child: Image(image: AssetImage("${imgResource}logo.png")))),
           theme: ThemeData(
               primaryColor: AppColor.colorAppTheme,
               visualDensity: VisualDensity.adaptivePlatformDensity),

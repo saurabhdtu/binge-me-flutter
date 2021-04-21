@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:binge_me/constants/enums.dart';
 import 'package:binge_me/logic/application/app_events.dart';
 import 'package:binge_me/logic/application/app_states.dart';
-import 'package:binge_me/logic/common/base_bloc.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
